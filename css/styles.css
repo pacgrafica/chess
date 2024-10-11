@@ -1,0 +1,40 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: chocolate;
+}
+
+.beige {
+    background-color: beige;
+    height: 10vh
+}
+
+.negro {
+    background-color: black;
+    height: 10vh;
+    --animate-duration: 0.5s;
+}
+
+.centrar {
+    display: flex;
+    justify-content: center;
+}
+
+:root {
+    --animate-delay: 0.1s;
+  }
+
+#miObjeto {
+    width: 100px;
+    height: 100px;
+    position: relative; /* Necesario para poder moverlo con 'left' y 'top' */
+    left: 0;
+    bottom: 0;
+    transition: all 0.5s ease; /* Suaviza el movimiento */
+}
+
+button:hover {
+    background-color: aquamarine !important;
+}
