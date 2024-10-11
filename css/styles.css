@@ -38,3 +38,11 @@ body {
 button:hover {
     background-color: aquamarine !important;
 }
+
+/*aca coloco los estilos de mi fuente de google fonts*/
+
+.spicy-rice-regular {
+    font-family: "Spicy Rice", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
